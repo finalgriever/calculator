@@ -1,7 +1,7 @@
 import React from "react";
 
-function FormulaDisplay() {
-    return <p>12*24</p>
+function FormulaDisplay({ textToDisplay }) {
+  return <p>{textToDisplay.join("")}</p>;
 }
 
 export default FormulaDisplay;
